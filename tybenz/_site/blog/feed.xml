@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <description></description>
+    <link></link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    
+      
+        <item>
+          <title>Presentation: JS Legos</title>
+          <description>&lt;p&gt;I’ve been doing this talk on Reusable UI Components in JavaScript for a while
+now. I gave the last on at the &lt;a href=&quot;http://html5devconf.com&quot;&gt;HTML5 Developer Conference&lt;/a&gt; in
+May (hopefully will have a video soon). The talk is an adaptation from a
+&lt;a href=&quot;http://tybenz.com/post/widgetize-all-the-things&quot;&gt;previous blog post&lt;/a&gt; about reusable UI components in JavaScript.
+I’ve also given versions of the talk at &lt;a href=&quot;http://www.gentics.com/jquery-eu-2014/page/2014/eu.html&quot;&gt;jQuery Europe&lt;/a&gt;, &lt;a href=&quot;http://events.jquery.org/2014/san-diego&quot;&gt;jQuery San
+Diego&lt;/a&gt; and &lt;a href=&quot;http://www.meetup.com/The-Sonora-Software-Developers-Group/&quot;&gt;SSDG&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Slides are posted here:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://tybenz.com/presentation-js-legos&quot;&gt;http://tybenz.com/presentation-js-legos&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Also, I’m releasing this small open-source UI component library as part of the talk, called &lt;strong&gt;lego.js&lt;/strong&gt;.
+It’s really just meant to be a repository of more in-depth code samples of the kind of components
+presented in the talk. Feel free to check it out:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://tybenz.com/legojs&quot;&gt;http://tybenz.com/legojs&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Here’s a recording of the talk from &lt;a href=&quot;http://www.gentics.com/jquery-eu-2014/page/2014/eu.html&quot;&gt;jQuery Europe&lt;/a&gt;:
+&amp;lt;div class=&quot;video-container skinny&quot;&amp;gt;
+  &amp;lt;iframe src=&quot;//www.youtube.com/embed/S0xH8RxFaBg?start=233&quot; frameborder=&quot;0&quot; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;
+&amp;lt;/div&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;Here’s a recording of the talk from &lt;a href=&quot;http://events.jquery.org/2014/san-diego&quot;&gt;jQuery San Diego&lt;/a&gt;:
+&amp;lt;div class=&quot;video-container&quot;&amp;gt;
+  &amp;lt;iframe src=&quot;//www.youtube.com/embed/78a3cjw8bT8&quot; frameborder=&quot;0&quot; allowfullscreen&amp;gt;&amp;lt;/iframe&amp;gt;
+&amp;lt;/div&amp;gt;&lt;/p&gt;
+
+</description>
+          <pubDate>Mon, 16 Jun 2014 00:00:00 +0630</pubDate>
+          <link>//blog/2014/06/16/presentation-js-legos.html</link>
+          <guid isPermaLink="true">//blog/2014/06/16/presentation-js-legos.html</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>List of awesome band names</title>
+          <description>&lt;p&gt;I’ve started putting together a list of awesome band names.&lt;/p&gt;
+
+&lt;p&gt;Click here to see them: &lt;a href=&quot;https://github.com/tybenz/band-names&quot;&gt;https://github.com/tybenz/band-names&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;want-to-contribute&quot;&gt;want to contribute?&lt;/h1&gt;
+
+&lt;p&gt;Fork and pull request to contribute to the list. Don’t know what those terms
+mean? Never used GitHub before? Keep reading.&lt;/p&gt;
+
+&lt;h1 id=&quot;how-to-contribute-on-github&quot;&gt;how to contribute on github&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/join&quot;&gt;Sign up&lt;/a&gt; for GitHub if you’re not already.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://awes0.me/mr-join.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Go &lt;a href=&quot;https://github.com/tybenz/band-names/fork&quot;&gt;here&lt;/a&gt; to fork the repo.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://awes0.me/mr-fork.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Go &lt;a href=&quot;https://github.com/tybenz/band-names/edit/master/README.md&quot;&gt;here&lt;/a&gt; to edit.
+Click on “Propose file change”&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://awes0.me/mr-edit.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Then click on “Create pull request”&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://awes0.me/mr-pull-request.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+          <pubDate>Thu, 12 Jun 2014 00:00:00 +0630</pubDate>
+          <link>//blog/2014/06/12/list-of-awesome-band-names.html</link>
+          <guid isPermaLink="true">//blog/2014/06/12/list-of-awesome-band-names.html</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Organize Your Node Apps</title>
+          <description>&lt;p&gt;I wrote a node module called &lt;a href=&quot;http://tybenz.com/paper-router&quot;&gt;paper-router&lt;/a&gt;.
+It’s sole purpose is to help me organize my node apps.&lt;/p&gt;
+
+&lt;h2 id=&quot;it-turns-this&quot;&gt;it turns this&lt;/h2&gt;
+
+&lt;p&gt;```javascript
+var restify = require(‘restify’);
+var BananaModel = require( ‘./models/banana.js’ );
+var PeelModel = require( ‘./models/peel.js’ );&lt;/p&gt;
+
+&lt;p&gt;var server = restify.createServer({
+    name: ‘luca’,
+});&lt;/p&gt;
+
+&lt;p&gt;server.use( function crossOrigin( req, res, next ) {
+    res.header( “Access-Control-Allow-Origin”, “*” );
+    res.header( “Access-Control-Allow-Headers”, “X-Requested-With” );
+    return next();
+});&lt;/p&gt;
+
+&lt;p&gt;server.use( restify.acceptParser( server.acceptable ) );
+server.use( restify.queryParser() );
+server.use( restify.bodyParser() );
+server.pre( restify.pre.sanitizePath() );&lt;/p&gt;
+
+&lt;p&gt;server.get( ‘/’, function( req, res, next ) {
+    res.send( { message: ‘You are home’ } );
+})&lt;/p&gt;
+
+&lt;p&gt;server.get( ‘/bananas’, function( req, res, next ) {
+    res.send( BananaModel.getAll() );
+});&lt;/p&gt;
+
+&lt;p&gt;server.post( ‘/bananas’, function( req, res, next ) {
+    var banana = BananaModel.new({
+        weight: req.params.weight,
+        length: req.params.length,
+    })
+    .save();&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;res.send( banana ); });
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;server.get( ‘/bananas/:banana_id/peels’, function( req, res, next ) {
+    var peels = PeelModel.where( { banana_id: req.params.banana_id } );&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;res.send( peels ); });
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;server.listen( 8000, function() {
+    console.log( “%s listening at %s”, server.name, server.url );
+});
+```&lt;/p&gt;
+
+&lt;h2 id=&quot;into-this&quot;&gt;into this&lt;/h2&gt;
+
+&lt;p&gt;```javascript
+var restify = require(‘restify’);
+var PaperRouter = require( ‘paper-router’ );
+var routes = require( ‘./routes’ );&lt;/p&gt;
+
+&lt;p&gt;var server = restify.createServer({
+    name: ‘luca’,
+});&lt;/p&gt;
+
+&lt;p&gt;server.use( function crossOrigin( req, res, next ) {
+    res.header( “Access-Control-Allow-Origin”, “*” );
+    res.header( “Access-Control-Allow-Headers”, “X-Requested-With” );
+    return next();
+});&lt;/p&gt;
+
+&lt;p&gt;server.use( restify.acceptParser( server.acceptable ) );
+server.use( restify.queryParser() );
+server.use( restify.bodyParser() );
+server.pre( restify.pre.sanitizePath() );&lt;/p&gt;
+
+&lt;p&gt;//
+// Using paper router to separate out controllers from routes
+// Routes are read in from a separate file (see routes.js below)
+//
+var router = new PaperRouter( server, __dirname + ‘/controllers’, routes );&lt;/p&gt;
+
+&lt;p&gt;server.listen( 8000, function() {
+    console.log( “%s listening at %s”, server.name, server.url );
+});
+```&lt;/p&gt;
+
+&lt;p&gt;routes.js:&lt;/p&gt;
+
+&lt;p&gt;```javascript
+module.exports = function( router ) {
+    // GET ‘/’ =&amp;gt; controller: ‘home’, action: ‘index’
+    router.get( ‘/’, ‘home#index’ );&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;// Creates the following routes but only if the actions exist
+// GET &#39;/bananas&#39; =&amp;gt; controller: &#39;bananas&#39;, action: &#39;index&#39;
+// GET &#39;/bananas/:id&#39; =&amp;gt; controller: &#39;bananas&#39;, action: &#39;show&#39;
+// GET &#39;/bananas/new&#39; =&amp;gt; controller: &#39;bananas&#39;, action: &#39;new&#39;
+// GET &#39;/bananas/:id/edit&#39; =&amp;gt; controller: &#39;bananas&#39;, action: &#39;edit&#39;
+// POST &#39;/bananas&#39; =&amp;gt; controller: &#39;bananas&#39;, action: &#39;create&#39;
+// PUT &#39;/bananas/:id&#39; =&amp;gt; controller: &#39;bananas&#39;, action: &#39;update&#39;
+// DELETE &#39;/bananas/:id&#39; =&amp;gt; controller: &#39;bananas&#39;, action: &#39;destroy&#39;
+router.resources( &#39;bananas&#39; );
+
+// Creates the following routes but only if the actions exist
+// GET &#39;/bananas/:banana_id/peels&#39; =&amp;gt; controller: &#39;peels&#39;, action: &#39;index&#39;
+// GET &#39;/bananas/:banana_id/peels/:id&#39; =&amp;gt; controller: &#39;peels&#39;, action: &#39;show&#39;
+// GET &#39;/bananas/:banana_id/peels/new&#39; =&amp;gt; controller: &#39;peels&#39;, action: &#39;new&#39;
+// GET &#39;/bananas/:banana_id/peels/:id/edit&#39; =&amp;gt; controller: &#39;peels&#39;, action: &#39;edit&#39;
+// POST &#39;/bananas/:banana_id/peels&#39; =&amp;gt; controller: &#39;peels&#39;, action: &#39;create&#39;
+// PUT &#39;/bananas/:banana_id/peels/:id&#39; =&amp;gt; controller: &#39;peels&#39;, action: &#39;update&#39;
+// DELETE &#39;/bananas/:banana_id/peels/:id&#39; =&amp;gt; controller: &#39;peels&#39;, action: &#39;destroy&#39;
+router.resources( &#39;peels&#39;, &#39;/bananas/:banana_id&#39; ); }; ```
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;bananasController.js:&lt;/p&gt;
+
+&lt;p&gt;```javascript
+// bananasController.js
+var BananaModel = require( ‘../models/banana.js’ );&lt;/p&gt;
+
+&lt;p&gt;// Controllers are just plain objects with actions as properties
+// Use typical CRUD action names to line up with paper-router’s
+// resourceful routing (see routes.js)
+var BananaController = {
+    index: function( req, res, next ) {
+        res.send( BananaModel.getAll() );
+    }&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;create: function( req, res, next ) {
+    var banana = BananaModel.new({
+        weight: req.params.weight,
+        length: req.params.length,
+    })
+    .save();
+
+    res.send( banana );
+} };
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;module.exports = BananaController;
+```&lt;/p&gt;
+
+&lt;p&gt;peelsController.js&lt;/p&gt;
+
+&lt;p&gt;```javascript
+// peelsController.js
+var PeelModel = require( ‘../models/peel.js’ );&lt;/p&gt;
+
+&lt;p&gt;var PeelsController = {
+    index: function( req, res, next ) {
+        var peels = PeelModel.where( { banana_id: req.params.banana_id } );&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    res.send( peels );
+} };
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;module.exports = PeelsController;
+```&lt;/p&gt;
+
+&lt;p&gt;homeController.js&lt;/p&gt;
+
+&lt;p&gt;```javascript
+// homeController.js
+var HomeController = {
+    index: function( req, res, next ) {
+        res.send( { message: ‘You are home’ } );
+    }
+};&lt;/p&gt;
+
+&lt;p&gt;module.exports = HomeController;
+```&lt;/p&gt;
+</description>
+          <pubDate>Thu, 29 May 2014 00:00:00 +0630</pubDate>
+          <link>//blog/2014/05/29/organize-your-node-apps.html</link>
+          <guid isPermaLink="true">//blog/2014/05/29/organize-your-node-apps.html</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Double Down</title>
+          <description>&lt;h4 id=&quot;this-text-was-also-posted-to-the-pastry-box-projecthttpsthe-pastry-box-projectnettyler-benziger2014-may-20--&quot;&gt;&lt;em&gt;* * This text was also posted to the &lt;a href=&quot;https://the-pastry-box-project.net/tyler-benziger/2014-may-20&quot;&gt;Pastry Box Project&lt;/a&gt; * *&lt;/em&gt;&lt;/h4&gt;
+
+&lt;p&gt;I went to a casino last weekend. The next few hours of my life would play out
+like a classic “quit while you’re ahead” fable. I spent a little bit of time on
+a slot machine — no luck. Watched my friends play Pai Gow — not
+interested. A friend and I sat down at a $10 Blackjack table and my first
+casino experience began to unfold. Within the first 15 minutes of playing, I
+had doubled-down successfully 3 hands in a row. I was up $150.&lt;/p&gt;
+
+&lt;p&gt;Any sensible person would’ve told me to walk away. But I had just started. I
+didn’t want my night to be over yet. So I figured I’d stick around and have
+some fun. You know the rest… I lost it all. I ended the night $30 poorer.&lt;/p&gt;
+
+&lt;p&gt;It was a good experience actually. Lesson-learned — future idiocy
+defeated.&lt;/p&gt;
+
+&lt;p&gt;On the ride home, I somehow began thinking about the term “bet on the web”. In
+light of my recent betting adventure, I was feeling extra philosophical (read:
+emo) and started trying to think of a decent analogy between betting on the web
+and the real-life smoke-filled house of wagers I’d just left.&lt;/p&gt;
+
+&lt;p&gt;I wondered if people who bet on the web are just kidding themselves — if
+they should quit while they’re ahead — if it wasn’t time that we all got
+the heck out of dodge and ran back to the safe confines of platform-specific,
+native software development.&lt;/p&gt;
+
+&lt;p&gt;It seems like a rat race these days. New frameworks left and right, standards
+bodies trying to push things forward but too slow to keep up, and cynical
+developers immersed in constant debates on tooling, best-practices, and where
+the web platform should be headed.&lt;/p&gt;
+
+&lt;p&gt;You’d think it was time to “color out”, but after some more thinking, I
+realized this analogy was total crap. The web isn’t something as volatile as a
+hand of Blackjack. There’s no canned set of odds. Its future is not going to be
+decided by the shuffling of a deck. We each have the power to get off our
+slot-arm-pulling, Pai-Gow-playing, Blackjack-losing butts and do something to
+push the web forward.&lt;/p&gt;
+
+&lt;p&gt;Write amazing software using web technologies and share how you did it. Start
+contributing to real tools other web developers love to use. And get in the mix
+and start helping with standards bodies.&lt;/p&gt;
+
+&lt;p&gt;This is a new revelation to me. I’m not even sure where I’ll start. But I do
+know I’m not going to sit around and wait to see if the web takes off or blows
+up. I love the web and I want to see it win, and I don’t have to leave that up
+to a bunch of Blackjack dealers. I’m going to bet on the web because I’m going
+to be one of the ones driving the dang thing forward.&lt;/p&gt;
+</description>
+          <pubDate>Tue, 20 May 2014 00:00:00 +0630</pubDate>
+          <link>//blog/2014/05/20/double-down.html</link>
+          <guid isPermaLink="true">//blog/2014/05/20/double-down.html</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Making Spam Cool Again</title>
+          <description>&lt;p&gt;I’m an information junky. I spend hours a day on &lt;a href=&quot;http://twitter.com&quot;&gt;Twitter&lt;/a&gt;,
+&lt;a href=&quot;http://news.ycombinator.com&quot;&gt;Hacker News&lt;/a&gt;, &lt;a href=&quot;http://usevim.com&quot;&gt;UseVim&lt;/a&gt;, &lt;a href=&quot;http://robots.thoughtbot.com&quot;&gt;Giant
+Robots&lt;/a&gt;, &lt;a href=&quot;http://dailyjs.com&quot;&gt;DailyJS&lt;/a&gt; — if
+it’s about developer-anything, I’m there. So I decided to share the wealth of
+links that I visit on a daily basis with the world.&lt;/p&gt;
+
+&lt;p&gt;Introducing &lt;strong&gt;spamthe.net&lt;/strong&gt; — my very own link spammer. Follow on twitter
+(&lt;a href=&quot;http://twitter.com/spamthenet&quot;&gt;@spamthenet&lt;/a&gt;), bookmark in your browser
+(&lt;a href=&quot;http://spamthe.net&quot;&gt;spamthe.net&lt;/a&gt;) *, subscribe to the weekly newsletter
+(&lt;a href=&quot;http://spamthe.net&quot;&gt;here&lt;/a&gt;), or join the IRC channel on Freenode
+(&lt;a href=&quot;http://webchat.freenode.net&quot;&gt;#spamthenet&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;The links themselves can be found easily by anyone else who is as obsessed
+with the above-mentioned resources as I am. But the fun part was building it.&lt;/p&gt;
+
+&lt;p&gt;I use &lt;a href=&quot;http://pages.github.com&quot;&gt;GitHub Pages&lt;/a&gt; to host the site and a node.js
+app to update twitter and the blog simultaneously. Oh, and I wrote a
+bookmarklet so that I can just click a button from within a site and send it to
+the spammer.&lt;/p&gt;
+
+&lt;p&gt;The node app listens for a request (CORS of course) from the
+bookmarklet. The title and url are passed in the request, and the app
+posts to the twitter account and writes a new file into the website’s repo,
+commits, and pushes to GitHub. Now I can share links with the click of a
+button. Copy + paste is so 2013.&lt;/p&gt;
+
+&lt;p&gt;The IRC channel is running a version of &lt;a href=&quot;http://hubot.github.io&quot;&gt;hubot&lt;/a&gt; that
+listens to spamthenet’s Twitter stream and auto-posts the links.
+Join the channel if you feel like chatting with cool people while you wait for
+the links to pour in.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://github.com/tybenz/spamthe.net/tree/master&quot;&gt;Click here&lt;/a&gt; to check out the
+awful source. If you’re interested in helping me collect links, ping me on IRC
+(tybenz) or Twitter (&lt;a href=&quot;http://twitter.com/tybenz&quot;&gt;@tybenz&lt;/a&gt;) and be sure to check the
+&lt;a href=&quot;https://github.com/tybenz/spamthe.net#contributing&quot;&gt;contributing&lt;/a&gt; section of the
+README.&lt;/p&gt;
+
+&lt;p&gt;Also don’t forget to bookmark &lt;a href=&quot;http://spamthe.net&quot;&gt;spamthe.net&lt;/a&gt;, sign up for
+our newsletter, follow &lt;a href=&quot;http://spamthe.net&quot;&gt;@spamthenet&lt;/a&gt;, and join us on IRC.
+Or maybe just one of those, if you feel doing all of them would be redundant.&lt;/p&gt;
+
+&lt;p&gt;* I know the site has spam in the title. So here’s a screenshot for all you out
+there who are too scared to actually click on the link:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://spamthe.net&quot;&gt;&lt;img src=&quot;http://awes0.me/spamsite.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+          <pubDate>Tue, 25 Feb 2014 00:00:00 +0630</pubDate>
+          <link>//blog/2014/02/25/making-spam-cool-again.html</link>
+          <guid isPermaLink="true">//blog/2014/02/25/making-spam-cool-again.html</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Presentation: CSS Layout</title>
+          <description>&lt;p&gt;I presented on new CSS Layout features at a Game and App Devs Meetup group at Adobe SF on February 4.
+Here are the slides for my presentation:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://tybenz.com/presentation-css-layout&quot;&gt;Finally! Layout in CSS&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Here’s a recording of the talk:&lt;/p&gt;
+
+&lt;div class=&quot;video-container&quot;&gt;
+  &lt;iframe src=&quot;//www.youtube.com/embed/Q-EkoYILdYg&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+          <pubDate>Sat, 22 Feb 2014 00:00:00 +0630</pubDate>
+          <link>//blog/2014/02/22/presentation-css-layout.html</link>
+          <guid isPermaLink="true">//blog/2014/02/22/presentation-css-layout.html</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Taking advantage of sessions in Vim</title>
+          <description>&lt;p&gt;A few months ago, on my daily hunt for new, useful VIM plugins, I discovered
+&lt;a href=&quot;http://github.com/mhinz/vim-startify&quot;&gt;vim-startify&lt;/a&gt;. Startify is a beautiful
+and organized startup screen for VIM. It provides shortcuts into files from
+your working directory, a list of bookmarks to files you edit all the time, and
+your most-recently edited files. As I was going over its docs, I also
+discovered that it can list out vim sessions. I’d never read about sessions
+before. So I began googling.&lt;/p&gt;
+
+&lt;p&gt;Vim provides some commands that let you store sessions based on the current
+state of VIM. You can load in previously created sessions with &lt;code&gt;source&lt;/code&gt; (just
+like any other vim script). The &lt;code&gt;mksession&lt;/code&gt; command, out-of-the-box, stores every
+little detail about your current session — plugins, scripts, which buffers are
+loaded, what your tabs and windows are doing.  Because of this, a &lt;code&gt;mksession&lt;/code&gt;
+file can be really large and really ugly. I actually found that most of the
+things &lt;code&gt;mksession&lt;/code&gt; was saving to be a bit redundant. For the most part, the
+scripts I want executed when I launch VIM are all present in my &lt;code&gt;.vimrc&lt;/code&gt;. So I
+took the bits that I needed and starting creating my own session files by hand.&lt;/p&gt;
+
+&lt;p&gt;The only commands I really need in a project-specific session have to do with
+changing VIM’s working directory, opening files into buffers, and choosing
+which of those buffers to edit (I usually start with two files in vertical
+split panes).&lt;/p&gt;
+
+&lt;p&gt;Here’s one of my session files (vimdeck.vim):&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;
+&lt;pre&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;cd&lt;/span&gt; ~/src/vimdeck
+&lt;span class=&quot;k&quot;&gt;args&lt;/span&gt; lib/* lib/templates/* bin/vimdeck Rakefile Gemfile README.md slides.md
+&lt;span class=&quot;k&quot;&gt;edit&lt;/span&gt; slides.md
+&lt;span class=&quot;k&quot;&gt;vertical sb&lt;/span&gt; lib/vimdeck.rb&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I change the working directory to the project folder, open files into buffers,
+then I choose which two files I want to start with (in the above case slides.md
+and lib/vimdeck.rb). And I can execute all of this by typing:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;:source ~/.vim/sessions/vimdeck.vim&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Now sessions get even cooler when you pair sessions with Startify. Startify
+will list all session files from a directory and provide keyboard shortcuts to
+execute them. I put my session files into &lt;code&gt;~/.vim/sessions&lt;/code&gt; and tell startify
+where they’re located with:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-vim&quot; data-lang=&quot;vim&quot;&gt;&lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;g&lt;/span&gt;:startify_session_dir &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;~/.vim/sessions&amp;quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Now everytime I start VIM, I’m greeted with this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://awes0.me/startify.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Note that the first section consists of a list of numbered sessions. Startify
+assigns shortcut keys to them so if I want to jump into my vimdeck session, all
+I have to do is open VIM and hit &lt;code&gt;h&lt;/code&gt; and it will drop me into the right
+directory with all of the files I want to be able to edit for that project.&lt;/p&gt;
+
+&lt;p&gt;Startify also provides directory-level session file detection. So it will check VIM’s
+working directory for a &lt;code&gt;Session.vim&lt;/code&gt; file and write out a shortcut for that
+session as well. Useful if you’d like to include your session file in your
+projects git repository.&lt;/p&gt;
+
+&lt;p&gt;Make sure you grab &lt;a href=&quot;http://github.com/mhinz/vim-startify&quot;&gt;startify&lt;/a&gt; and start
+playing around with its session support. Also, hit me up on
+&lt;a href=&quot;http://twitter.com/tybenz&quot;&gt;twitter&lt;/a&gt; if you have any questions/suggestions.&lt;/p&gt;
+</description>
+          <pubDate>Thu, 06 Feb 2014 00:00:00 +0630</pubDate>
+          <link>//blog/2014/02/06/taking-advantage-of-sessions-in-vim.html</link>
+          <guid isPermaLink="true">//blog/2014/02/06/taking-advantage-of-sessions-in-vim.html</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>My Hour Of Code</title>
+          <description>&lt;p&gt;This past week was &lt;a href=&quot;http://code.org&quot;&gt;code.org’s&lt;/a&gt; first &lt;a href=&quot;http://csedweek.org&quot;&gt;Computer Science Education Week&lt;/a&gt;. They set a goal of getting 10 million students worldwide to participate
+in an hour of code (they ended up with over 16 million). Code.org and many other participating organizations created self-guided tutorials to walk students through the fundamentals
+of programming.&lt;/p&gt;
+
+&lt;p&gt;I was able to help out at a &lt;a href=&quot;http://hcs.hickmanschools.org&quot;&gt;Hickman Charter School&lt;/a&gt; by adding a short presentation on what code is all about. I’m extremely appreciative of
+code.org’s efforts to educate young people on such an important topic. Here’s some photos from the event:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.github.com/tybenz/awes0.me/gh-pages/hoc1.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;https://raw.github.com/tybenz/awes0.me/gh-pages/hoc2.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;https://raw.github.com/tybenz/awes0.me/gh-pages/hoc3.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;img src=&quot;https://raw.github.com/tybenz/awes0.me/gh-pages/hoc4.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+          <pubDate>Mon, 16 Dec 2013 00:00:00 +0630</pubDate>
+          <link>//blog/2013/12/16/my-hour-of-code.html</link>
+          <guid isPermaLink="true">//blog/2013/12/16/my-hour-of-code.html</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>VIM as a presentation tool</title>
+          <description>&lt;p&gt;I made a thing. It’s called &lt;a href=&quot;https://raw.github.com/tybenz/vimdeck/master/img/demo3.png&quot;&gt;Vimdeck&lt;/a&gt;
+and it lets you write a presentation
+in a single markdown file and then converts that file into multiple “slides”
+to be opened and shared in VIM.&lt;/p&gt;
+
+&lt;p&gt;Buffers as slides. Genius, no? Plus, I added some ascii art conversion stuff too.&lt;/p&gt;
+
+&lt;p&gt;Head over to the &lt;a href=&quot;http://github.com/tybenz/vimdeck&quot;&gt;GitHub page&lt;/a&gt; to check it out.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.github.com/tybenz/vimdeck/master/img/demo3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+</description>
+          <pubDate>Thu, 19 Sep 2013 00:00:00 +0630</pubDate>
+          <link>//blog/2013/09/19/vimdeck-vim-as-a-presentation-tool.html</link>
+          <guid isPermaLink="true">//blog/2013/09/19/vimdeck-vim-as-a-presentation-tool.html</guid>
+        </item>
+      
+    
+      
+        <item>
+          <title>Presentation: Widget-ize</title>
+          <description>&lt;p&gt;I’m headed to &lt;a href=&quot;http://frontporch.com&quot;&gt;Frontporch&lt;/a&gt; in Sonora, CA to the &lt;a href=&quot;http://www.meetup.com/The-Sonora-Software-Developers-Group/&quot;&gt;Sonora Software
+Developers Group Meetup&lt;/a&gt; to give a presentation
+based on my &lt;a href=&quot;http://tybenz.com/post/widgetize-all-the-things&quot;&gt;widget-ize&lt;/a&gt; blog post.&lt;/p&gt;
+
+&lt;p&gt;The slides can be found here: &lt;a href=&quot;http://tybenz.com/presentation-widgetize&quot;&gt;http://tybenz.com/presentation-widgetize&lt;/a&gt;&lt;/p&gt;
+</description>
+          <pubDate>Tue, 27 Aug 2013 00:00:00 +0630</pubDate>
+          <link>//blog/2013/08/27/presentation-widget-ize.html</link>
+          <guid isPermaLink="true">//blog/2013/08/27/presentation-widget-ize.html</guid>
+        </item>
+      
+    
+  </channel>
+</rss>

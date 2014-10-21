@@ -1,0 +1,45 @@
+<p>This is a jQuery Plugin designed to work with Rail’s UJS remote forms.
+It makes it easier to automatically inject populated templates into your page based on a JSON AJAX response.</p>
+
+<h2 id="example">Example</h2>
+
+<p>This is an example of a form that is meant to grab a block of “posts” and inject them into a feed div</p>
+
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="c">&lt;!-- Initializing the ajaxAppend plugin --&gt;</span>
+<span class="nt">&lt;script </span><span class="na">type=</span><span class="s">&quot;text/javascript&quot;</span><span class="nt">&gt;</span>
+    <span class="nx">$</span><span class="p">(</span> <span class="s1">&#39;#rf1&#39;</span> <span class="p">).</span><span class="nx">ajaxAppend</span><span class="p">({</span>
+        <span class="nx">dataName</span><span class="o">:</span> <span class="s1">&#39;stories&#39;</span><span class="p">,</span>
+        <span class="nx">templates</span><span class="o">:</span> <span class="p">[{</span>
+            <span class="nx">template</span><span class="o">:</span> <span class="nx">$</span><span class="p">(</span> <span class="s2">&quot;#story-template&quot;</span> <span class="p">).</span><span class="nx">text</span><span class="p">(),</span>
+            <span class="nx">selector</span><span class="o">:</span> <span class="s1">&#39;#whats-new-feed&#39;</span><span class="p">,</span>
+            <span class="nx">order</span><span class="o">:</span> <span class="s1">&#39;prepend&#39;</span>
+        <span class="p">}],</span>
+        <span class="nx">formReset</span><span class="o">:</span> <span class="kc">false</span>
+    <span class="p">});</span>
+<span class="nt">&lt;/script&gt;</span>
+
+<span class="c">&lt;!-- Template for our news story --&gt;</span>
+<span class="nt">&lt;script </span><span class="na">type=</span><span class="s">&quot;underscore-template&quot;</span> <span class="na">id=</span><span class="s">&quot;story-template&quot;</span><span class="nt">&gt;</span>
+    <span class="o">&lt;%</span> <span class="nx">_</span><span class="p">.</span><span class="nx">each</span><span class="p">(</span><span class="nx">stories</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span> <span class="nx">post</span> <span class="p">)</span> <span class="p">{</span> <span class="o">%&gt;</span>
+        <span class="o">&lt;</span><span class="nx">div</span> <span class="kr">class</span><span class="o">=</span><span class="s2">&quot;post&quot;</span><span class="o">&gt;</span>
+            <span class="o">&lt;</span><span class="nx">h4</span><span class="o">&gt;&lt;</span><span class="nx">span</span> <span class="kr">class</span><span class="o">=</span><span class="s2">&quot;date&quot;</span><span class="o">&gt;&lt;</span><span class="err">/span&gt;&lt;/h4&gt;</span>
+            <span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;</span>
+                
+            <span class="o">&lt;</span><span class="err">/p&gt;</span>
+        <span class="o">&lt;</span><span class="err">/div&gt;</span>
+    <span class="o">&lt;%</span> <span class="p">});</span> <span class="o">%&gt;</span>
+<span class="nt">&lt;/script&gt;</span>
+
+<span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;whats-new&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;h3&gt;</span>News Example<span class="nt">&lt;/h3&gt;</span>
+    <span class="nt">&lt;form</span> <span class="na">id=</span><span class="s">&quot;rf1&quot;</span> <span class="na">data-remote=</span><span class="s">&quot;true&quot;</span> <span class="na">action=</span><span class="s">&quot;get.php&quot;</span> <span class="na">method=</span><span class="s">&quot;post&quot;</span> <span class="na">style=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;hidden&quot;</span> <span class="na">name=</span><span class="s">&quot;num&quot;</span> <span class="na">value=</span><span class="s">&quot;0&quot;</span> <span class="nt">/&gt;</span>
+    
+        <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;submit&quot;</span> <span class="na">value=</span><span class="s">&quot;Get More News&quot;</span> <span class="nt">/&gt;</span>
+    <span class="nt">&lt;/form&gt;</span>
+    <span class="c">&lt;!-- This is where the templates will be injected --&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;whats-new-feed&quot;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;br</span> <span class="na">class=</span><span class="s">&quot;clear&quot;</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></div>
+

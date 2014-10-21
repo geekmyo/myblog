@@ -1,34 +1,23 @@
-dbyll
-=====
+# Personal blog
 
-Open source stylish, minimalistic theme for jekyll.  
-Demo: http://dbtek.github.io/dbyll/
+Startup journey & Random thoughts
 
-## New
-Dbyll for Ghost is now available. Get it [here](https://github.com/dbtek/dbyll-ghost) now.
+## Development
 
-### Features
-- Responsive layout.
-- Supports tags and categories.
-- Social profile and bio of author.
-- Bootstrap based.
-- Glyphicon and Font-Awesome Icons.
-- Pagination.
-- Syntax highlighting with pygments.
-- Disqus comments.
+* Build with dbyall (open source stylish, minimalistic theme for jekyll.
 
+* Checkout the original [demo] (http://dbtek.github.io/dbyll/)
 
-### Download
-* [Download dbyll](https://github.com/dbtek/dbyll/archive/master.zip)
+* Download [dbyall theme](https://github.com/dbtek/dbyll/archive/master.zip) 
 
-### Screenshots
+## Author
 
-![dbyll-screenshot](	assets/media/dbyll-ss.png)
+# Myo Hte Aung
 
-### License
+Made with love in sunny Yangon
+
+## License
 - [MIT](http://opensource.org/licenses/MIT)
 
 
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/dbtek/dbyll/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 

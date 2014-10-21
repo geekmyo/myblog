@@ -1,8 +1,8 @@
-#Personal blog
+Personal blog
 
 Startup journey & Random thoughts
 
-## Development
+#Development
 
 * Build with dbyall (open source stylish, minimalistic theme for jekyll.
 
@@ -10,13 +10,13 @@ Startup journey & Random thoughts
 
 * Download [dbyall theme](https://github.com/dbtek/dbyll/archive/master.zip) 
 
-Author
+## Author
 
-#### Myo Hte Aung
+### Myo Hte Aung
 
 Made with love in sunny Yangon
 
-##### License
+### License
 - [MIT](http://opensource.org/licenses/MIT)
 
 
